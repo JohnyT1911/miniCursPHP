@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS users
+(id MEDIUMINT AUTO_INCREMENT,
+fio TEXT,
+phone TEXT,
+email TEXT,
+address TEXT,
+password TEXT,
+PRIMARY KEY (id))
